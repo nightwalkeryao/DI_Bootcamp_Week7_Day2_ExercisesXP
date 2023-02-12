@@ -14,7 +14,7 @@ public class Account {
     public Account(int id, Customer customer) {
         this.id = id;
         this.customer = customer;
-        this.balance = balance;
+        this.balance = 0;
     }
 
     public int getId() {
